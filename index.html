@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World In Diffrent Programming Languages</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+  <nav id="navbar">
+    <header>Hello World in Diffrent Languages</header>
+    <ul>
+      <li><a class="nav-link" href="#hello_world_in_python">Hello World in Python</a></li>
+      <li><a class="nav-link" href="#hello_world_in_java">Hello World in Java</a></li>
+      <li><a class="nav-link" href="#hello_world_in_javascript">Hello World in JavaScript</a></li>
+      <li><a class="nav-link" href="#hello_world_in_c">Hello World in C</a></li>
+      <li><a class="nav-link" href="#hello_world_in_c_sharp">Hello World in C#</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="hello_world_in_python">
+      <header>Hello World In Python</header>
+      <article>
+        <p>
+          A simple program that displays “Hello, World!”. It's often used to illustrate the syntax of the language.
+          <br>
+          <code class="code-bg">print("Hello World")</code>
+        </p>
+        <p>In this program, we have used the built-in print() function to print the string Hello, world! on our screen.
+          <br><br>
+          By the way, a string is a sequence of characters. In Python, strings are enclosed inside single quotes, double
+          quotes, or triple quotes.
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="hello_world_in_java">
+      <header>Hello World In Java</header>
+      <article>
+        <p>
+          A "Hello, World!" is a simple program that outputs <code>Hello World</code> on the screen. Since it's a very
+          simple program, it's often used to introduce a new programming language to a newbie. <br>
+          <code class="code-bg">class HelloWorld { <br>
+          &nbsp;&nbsp;public static void main(String[] args) { <br>
+            &nbsp;&nbsp;&nbsp; System.out.println("Hello, World!"); <br>
+            &nbsp;} <br>
+      }</code>
+        </p>
+        <h2>How Java "Hello, World!" Program Works?</h2>
+        <p>
+        <ol>
+          <li>In Java, every application begins with a class definition. In the program, HelloWorld is the name of the
+            class, and the class definition is:
+            <br>
+            <code class="code-bg">
+          class HelloWorld { <br>
+            &nbsp;... .. ... <br>
+          } <br>
+        </code>
+            For now, just remember that every Java application has a class definition, and the name of the class should
+            match the filename in Java.
+          </li>
+          <li>This is the main method. Every application in Java must contain the main method. The Java compiler starts
+            executing the code from the main method.</li>
+          <li>The code above is a print statement. It prints the text Hello, World! to standard output (your screen).
+            The
+            text inside the quotation marks is called String in Java.</li>
+        </ol>
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="hello_world_in_javascript">
+      <header>Hello World In JavaScript</header>
+      <article>
+        <p>
+          In this example, you will learn to print 'Hello World' in JavaScript in three different ways. <br>
+          <code class="code-bg">console.log("Hello World");</code>
+        </p>
+        <p>
+        <ol>
+          <li>
+            <h3>Using console.log()</h3>
+            <p><code class="code-bg">console.log()</code> is used in debugging the code.</p>
+          </li>
+          <li>
+            <h3>Using alert()</h3>
+            <p>The alert() method displays an alert box over the current window with the specified message. <br>
+              <code class="code-bg">alert("Hello, World!");</code>
+            </p>
+          </li>
+          <li>
+            <h3>Using document.write()</h3>
+            <p><code>document.write()</code> is used when you want to print the content to the HTML document.
+              <br><code class="code-bg">document.write('Hello, World!');</code>
+            </p>
+          </li>
+        </ol>
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="hello_world_in_c">
+      <header>Hello World In C</header>
+      <article>
+        <p>
+          In this example, you will learn to print "Hello, World!" on the screen in C programming. <br>
+          <code class="code-bg">
+          #include &lt;stdio.h&gt; <br>
+          &nbsp;int main() {<br>
+               &nbsp;&nbsp;  printf("Hello, World!");<br>
+               &nbsp;&nbsp; return 0;<br>
+               &nbsp; }
+        </code>
+        </p>
+        <h3>How "Hello, World!" program works?</h3>
+        <p>
+        <ul>
+          <li>The <code>#include<stdio.h></stdio.h></code> is a preprocessor command that tells the compiler to include
+            the contents of <code>stdio.h</code> (standard input and output) file in the program.</li>
+          <li>The <code>stdio.h</code> file contains functions such as <code>scanf()</code> and <code>printf()</code> to
+            take input and display output respectively.</li>
+          <li>If you use the <code>printf()</code> function without writing <code>#include &lt;stdio.h&gt;</code>, the
+            program will not compile.</li>
+          <li>The execution of a C program starts from the <code>main()</code> function.</li>
+          <li><code>printf()</code> is a library function to send formatted output to the screen. In this program,
+            <code>printf()</code> displays <samp>Hello, World!</samp> text on the screen.</li>
+          <li>The <code>return 0;</code> statement is the <strong>"Exit status"</strong> of the program. In simple
+            terms, the program ends with this statement.</li>
+        </ul>
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="hello_world_in_c_sharp">
+      <header>Hello World In C Sharp</header>
+      <article>
+        <p>
+          In this tutorial, we will learn how to write a simple "Hello World!" program in C#. This will get you familiar
+          with the basic syntax and requirements of a C# program. <br>
+          <code class="code-bg">namespace HelloWorld <br>
+          &nbsp; { <br>
+            &nbsp;&nbsp;   class Hello {         <br>
+              &nbsp;&nbsp;&nbsp;    static void Main(string[] args) <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;  { <br>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;     System.Console.WriteLine("Hello World!");<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;  } <br>
+                &nbsp;&nbsp; } <br>
+                &nbsp;}</code>
+        </p>
+        <h3>Things to remember from this article</h3>
+        <p>
+        <ul>
+          <li>Every C# program must have a class definition.</li>
+          <li>The execution of program begins from the <code>Main()</code> method.</li>
+          <li><code>Main()</code> method must be inside a class definition.</li>
+        </ul>
+        This is just a simple program for introducing C# to a newbie. If you did not understand certain things in
+          this article, that's okay (even I did not when I started). As we move on with this tutorial series, everything
+          will start to make sense.
+        </p>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>
